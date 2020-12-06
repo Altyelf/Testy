@@ -6,7 +6,8 @@
 
 
 function stringConcat(arr) {
-  // your code here
+ const num = arr => arr.map(Number);
+ console.log(num)
 }
 
 console.log(stringConcat([1, 2, 3])); // "123"
